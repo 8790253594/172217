@@ -22,7 +22,7 @@
      <td>3days battery </td>
      <br>
     
-    <td><input type="button" value="Buynow"> </td>
+    <td><input type="button" value="AddtoCart"> </td>
    
     </tr>
 </div>

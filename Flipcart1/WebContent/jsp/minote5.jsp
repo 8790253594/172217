@@ -27,7 +27,7 @@
      <br>
     
      <td>Mail : <a href="mailto:flipcart@example.com">flipcart@example.com</a></td><br>
-     <td><input type="button" value="Buynow"> </td>
+     <td><input type="button" value="AddtoCart"> </td>
    
     </tr>
 </div>

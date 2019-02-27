@@ -23,7 +23,7 @@
      <td>Qualcomm Snapdragon 425 Processor </td>
      <br>
     
-    <td><input type="button" value="Buynow"> </td>
+    <td><input type="button" value="AddtoCart"> </td>
     </tr>
    
 </div>

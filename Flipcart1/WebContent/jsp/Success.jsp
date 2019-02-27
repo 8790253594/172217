@@ -8,5 +8,6 @@
 </head>
 <body>
 <h1>Login successful!!!</h1>
+<a href="Flipkart.jsp">Click here to go to homepage</a>
 </body>
 </html>
