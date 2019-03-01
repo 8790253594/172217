@@ -42,7 +42,7 @@ public class Login extends HttpServlet {
 		boolean result=LoginService.authenticate(username,password);
 		System.out.println(result);
 		if(result) {
-		
+			request.getSession().setAttribute("username", username) ;
 			response.sendRedirect("jsp/Success.jsp");
 			return;
 		}

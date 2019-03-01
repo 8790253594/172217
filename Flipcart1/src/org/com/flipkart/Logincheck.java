@@ -56,11 +56,17 @@ public class Logincheck extends HttpServlet {
 			if (LoginvalidationDao.read(username, password)) {
 				// RequestDispatcher rd=request.getRequestDispatcher("Flipkart.html");
 				p.write("Welcome to FlipKart" + "username");
+				request.getSession().setAttribute("loginuser", username);
 				response.sendRedirect("jsp/Flipkart.jsp");
 			} else {
 				// RequestDispatcher rd=request.getRequestDispatcher("jsp/Login.jsp");
-                Session.setAttribute("error", "Invalid userID or password");;
+				if(username!=null) {
+				request.getSession().setAttribute("error", "Invalid userID or password");
+				
 				response.sendRedirect("jsp/Login.jsp");
+				}
+			
+				
 
 			}
 		} catch (SQLException e) {

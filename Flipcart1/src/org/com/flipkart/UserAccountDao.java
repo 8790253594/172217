@@ -36,6 +36,7 @@ public class UserAccountDao {
 		ResultSet count=pStatement.executeQuery();
 		while(count.next()) {
 			i=count.getInt(1);
+		
 		}
 		return i;
 		}

@@ -24,7 +24,7 @@
 					<br />
 					<div class="align-center"></div>
 				</div>
-			</div>
+			</div><%=request.getSession().getAttribute("error") %></div>
 			<br> <input type="submit" value="Signin">  <a
 				href="Register.jsp" class="button">New user then signup</a>
 				

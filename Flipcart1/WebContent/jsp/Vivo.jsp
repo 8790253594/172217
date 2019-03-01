@@ -9,7 +9,7 @@
 <body>
 <div class=" container-fluid"> 
 <div class="col-xs-4">
-       <div style="display:block;text-align:left"><a href=""><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" align="left" src="https://m.media-amazon.com/images/I/411pk7p6slL._SR500,500_.jpg" border="0"></a><br>
+       <div style="display:block;text-align:left"><a href="#"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" align="left" src="file:///C:/Users/mpodendl/git/172217/Flipcart1/WebContent/images/Vivo%20v9.jpg" border="0"></a><br>
 </div>
 <tr>
      <<td>price : 20,000</td>
@@ -23,7 +23,7 @@
      <td>Qualcomm Snapdragon 425 Processor </td>
      <br>
     
-    <td><input type="button" value="AddtoCart"> </td>
+    <td><button onclick="window.location.href='../Cart.jsp'">Add to cart</button> </td>
     </tr>
    
 </div>

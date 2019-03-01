@@ -7,12 +7,7 @@
 <title>Welcome to Flipkart registration page</title>
 </head>
 <script>
-validate(){
-username=document.form.
 
-
-	
-}
 
 
 
@@ -20,13 +15,15 @@ username=document.form.
 
 <body>
 
-	<form action="../UserRegistrationServlet" method="post"onregister="validate">
+	<form action="../UserRegistrationServlet" method="post"
+		onregister="validate">
 		<div style="text-align: center;">
-			Enter the full name:<input type="text" name="username" value="mih"> <br>
-			Enter your mobile number: <input type="number" name="phonenumber" value="9453">
-			<br> Enter your email address: <input type="email" name="email" value="sfd@dg.com"><br>
-			Enter your password <input type="password" name="password" value="mahesh">
-			<br>
+			Enter the full name:<input type="text" name="username" placeholder="Mahesh">
+			<br> Enter mobile number: <input type="number"
+				name="phonenumber" plcaeholder="8790253594">
+				 <br> Enter your email address: <input type="email" name="email" placeholder="mailto@abc.com"><br>
+			Enter your password <input type="password" name="password"
+				placeholder="mahesh"> <br>
 			<button>Register</button>
 		</div>
 
